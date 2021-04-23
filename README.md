@@ -3,5 +3,5 @@ This app helps you to find covid relief services near you.Like if a person is in
 in hospital or anything than this app will help you to do so.
 <img src="images/1.jpeg" width="250">
 
-#License
+# License
 Licensed under the [Apache Licence 2.0](LICENSE).
