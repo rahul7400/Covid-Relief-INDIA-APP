@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#3814BA"
+                android:fontFamily="monospace"
+                android:text="Covid Relief INDIA"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/txt2"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/txt"
+                android:text="All th information present on the app belongs to TII Covid Resources"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt2"
+                android:id="@+id/txt8"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="NOTE:-"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt8"
+                android:id="@+id/txt3"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:text="
+If there’s any update on these resources or if
+you have any suggestions, you can drop us a
+DM on: @TIICovidResources // but for official
+updates by government, please keep yourself
+updated with:"/>
+            <TextView
+                android:id="@+id/txt4"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt3"
+                android:textAlignment="center"
+                android:textColorLink="#E64A19"
+                android:text="@string/govt"/>
+
+            <TextView
+                android:id="@+id/txt14"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt4"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:text="Why my app is not on playstore?"/>
+
+            <TextView
+                android:id="@+id/txt15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt14"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+
+                android:layout_marginTop="10dp"
+                android:text="Since recently google suspended my app from playstore because i as an individual cannot use the word covid without any permission or licence in google playstore.\n\nThis app does not ask for any permissions on your phone except INTERNET. And does not contain any virus.This app is made for only helping purpose not for any income purpose.This is app is ad free and has no malwares so feel free to install this app and share it with your friends "/>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <Button
+
+            android:layout_width="300dp"
+            android:background="@drawable/buttonbg2"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/searchTwitter"
+            android:text="Search twitter for help near you"
+            android:textColor="#fff"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="300dp"
+            android:background="@drawable/buttonbg"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/searchbtn"
+            android:text="Instagram of TII Resources"
+            android:textColor="#fff"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:text="share the app"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="12dp"
+                android:visibility="gone"
+                android:background="@drawable/whiteround"
+                android:textColor="#3814BA"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="wrap_content"
+                android:text="Credits"
+                android:paddingStart="20dp"
+                android:id="@+id/credits"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="10dp"
+                android:visibility="visible"
+                android:background="@drawable/whiteround"
+                android:textColor="#3814BA"
+
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
