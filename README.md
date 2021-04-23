@@ -6,7 +6,7 @@ in hospital or anything than this app will help you to do so.
 
 <img src="images/1.jpeg" width="250">
 
-This app usually shows you all the latest <b>Twitter Tweets</b>
+This app usually shows you all the latest <b>Twitter Tweets</b> by searching the query of your city.
 
 <img src="images/2.jpeg" width="250">
 
