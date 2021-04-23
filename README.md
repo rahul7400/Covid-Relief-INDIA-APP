@@ -4,11 +4,10 @@ in hospital or anything than this app will help you to do so.
 
 # App Screenshots
 
-This app has no ads and do not contains any in app purchases and is totally free. So if you want you can give it a try.
+This app usually shows you all the latest <b>Twitter Tweets</b> by searching the query of your city.
 
 <img src="images/1.jpeg" width="250">
 
-Search the name of the app in the search box
 
 <img src="images/2.jpeg" width="250">
 
