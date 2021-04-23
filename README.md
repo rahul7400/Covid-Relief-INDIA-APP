@@ -1,2 +1,2 @@
 # Covid-Relief-INDIA-APP
-Licensed under the[Apache Licence 2.0](Licence).
+Licensed under the [Apache Licence 2.0](LICENSE).
