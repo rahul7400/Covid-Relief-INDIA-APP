@@ -1,7 +1,7 @@
 # Covid-Relief-INDIA-APP
 This app helps you to find covid relief services near you.Like if a person is in the need of plasma or beds 
 in hospital or anything than this app will help you to do so.
-# Cloud Link Of the App
+# Download The App
 <a href="https://mega.nz/folder/ml92AbAa#G7y64ejF1ueLKut3NdCgNw">Click here to redirect to the cloud</a>
 # App Screenshots
 
